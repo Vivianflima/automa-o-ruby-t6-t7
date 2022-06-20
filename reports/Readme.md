@@ -1,4 +1,4 @@
-<h1 align="center"> Automação Web Cucumber </h1>
+<h1 align="center"> Automação Web Rubi + Cucumber </h1>
 
 Projeto de automação WEb utilizando Ruby + Cucumber 
 
