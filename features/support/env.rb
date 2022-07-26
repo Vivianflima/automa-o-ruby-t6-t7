@@ -3,14 +3,14 @@ require 'capybara/rspec'
 require 'selenium-webdriver'
 require 'site_prism'
 require 'pry'
-require_relative 'helpers.rb'
+require_relative 'helper.rb'
 require_relative 'page_helper.rb'
 
 ENVIRONMENT = ENV['ENVIRONMENT']
 puts "Environment is runner in >>> #{ENVIRONMENT}"
 
-CONFIG = YAML.load_file(File.dirname(__FILE__) + "environments/#{ENVIRONMENT}.yml")
-World(Helper)
+CONFIG = YAML.load_file(File.dirname(__FILE__) + "/environments/#{ENVIRONMENT}.yml")
+World(Helpers)
 World(Pages)
 
 Capybara.configure do |config|
