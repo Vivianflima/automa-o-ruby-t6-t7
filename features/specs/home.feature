@@ -32,16 +32,3 @@ Quando clico no link "Fale Conosco"
 Então devo acessar a seção "Fale Conosco"
 
 
-# Esquema do Cenário: Validar Menu Home 
-
-# Dado que eu acesse a home page do projeto Qa.Coders
-# Quando clico no menu "menu"
-# Então devo visualizar a informação "validacao"
-
-# Exemplos: 
-
-# | menu         | validacao    |
-# | sobre_nos    | Sobre Nós    |
-# | depoimentos  | Depoimentos  | 
-# | parceiros    | Parceiros    |
-# | faleConosco  | Fale Conosco |
