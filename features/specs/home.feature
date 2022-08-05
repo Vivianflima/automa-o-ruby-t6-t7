@@ -10,8 +10,8 @@ Então devo visualizar a informação "Aprenda na prática."
 Cenario: Validar Menu Sobre Nós 
 
 Dado que eu acesse a home page do projeto Qa.Coders
-Quando clico no menu "Sobre Nós"
-Então devo obter acesso ao título "Sobre Nós"
+Quando clico no menu "Sobre nós"
+Então devo obter acesso ao título "Sobre nós"
 
 Cenario: Validar Menu Depoimentos
 
