@@ -11,7 +11,7 @@ Cenario: Validar Menu Sobre Nós
 
 Dado que eu acesse a home page do projeto Qa.Coders
 Quando clico no menu "Sobre Nós"
-Então devo acessar o texto "Sobre Nós"
+Então devo obter acesso ao título "Sobre Nós"
 
 Cenario: Validar Menu Depoimentos
 
