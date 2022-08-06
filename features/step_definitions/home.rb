@@ -6,38 +6,39 @@ Então('devo visualizar a informação {string}') do |titleHomePage|
     home.validate_text_homePage(titleHomePage)
 end
 
-Quando('clico no menu {string}') do |sobre_nos|
+Quando('clico em Sobre nós') do
     home.click_link(sobre_nos)
     sleep 3
 end
 
-Então('devo obter acesso ao título {string}') do |title_Sobre_Nos|
-    home.validate_text_menu_sobreNos(title_Sobre_Nos)
+
+Então('devo acessar a seção Sobre nós') do
+    home.validate_text_menu(title_Sobre_Nos)
 end
 
-Quando('clico em {string}') do |depoimentos|
+Quando('clico em depoimentos') do
     home.click_link(depoimentos)
     sleep 3
 end
 
-Então('devo enxergar o texto {string}') do |title_depoimentos|
+Então('devo acessar a seção Depoimentos') do
     home.validate_text_menu_dep(title_depoimentos)
 end
 
-Quando('clico no submenu {string}') do |parceiros|
+Quando('clico em parceiros') do
     home.click_link(parceiros)
     sleep 3
 end
   
-Então('devo ter acesso ao campo {string}') do |title_parceiros|
+Então('devo acessar a seção Parceiros') do
     home.validate_text_menu_parc(title_parceiros)
 end
 
-Quando('clico no link {string}') do |fale_conosco|
+Quando('clico em faleConosco') do
     home.click_link(fale_conosco)
     sleep 3
   end
   
-  Então('devo acessar a seção {string}') do |title_fale_conosco|
+  Então('devo acessar a seção Fale Conosco') do
     home.validate_text_menu_fale(title_fale_conosco)
   end
