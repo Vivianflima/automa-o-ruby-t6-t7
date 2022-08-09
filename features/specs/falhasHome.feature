@@ -1,6 +1,6 @@
 #language: pt
 @Falhar
-Funcionalidade: falhar Home Page
+Funcionalidade: falhar testes da Home Page
 
 Cenario: Acessar home page
 

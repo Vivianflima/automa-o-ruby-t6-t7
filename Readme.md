@@ -21,7 +21,11 @@ Instalar a versão recomendada marcada po => da sessão <b> WITH DEVKIT <b>
 2. Criar o arquivo Gemfile (sem extensão) e incluir:
 source 'https://rubygems.org'
 
-gem 'capybara' gem 'cucumber' (gem 'cucumber', '~> 3.1.0') gem 'rspec' gem 'selenium-webdriver' gem 'site_prism' 
+gem 'capybara' 
+gem 'cucumber' (gem 'cucumber', '~> 3.1.0') 
+gem 'rspec' 
+gem 'selenium-webdriver' 
+gem 'site_prism' 
 
 3. Abrir o terminal (do VSCode, ou o da sua preferência e navegar até a pasta do projeto) e rodar o comando 'bundle install'
 4. Rodar o comando 'cucumber --init'
